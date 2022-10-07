@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add a gray background color with some padding */
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background: lightskyblue;
+    }
+
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      font-size: 40px;
+      text-align: center;
+      background: darkslateblue;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid darkblue;
+      background-color: dodgerblue;
+      width: 1850px;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #ddd;
+    }
+
+    li a.active {
+      color: darkslateblue;
+      background-color: deepskyblue;
+    }
+  </style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="index.html">return</a></li>
+<ul/>
+<div class="header">
+  <h2>AI news</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>AI solved space travel</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <p>written by quandaleus dingleton barry schauwutzen blumen deim wasser kranken dimmer shimmer glimmer gunter blimp</p>
+      <p>Some smartass from detroit just said "use AI" immediately right after the FBI was listening and finally got some brain cells to actually realise something</p>
+    </div>
+    <div class="card">
+      <h2>AI told bank robbers the code to open a bank!</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <p>written by the guy from subway</p>
+      <p>Bank robbers used artificial intelligence to illustrate the code to a bank vault! The first bank robber to used Dall-E to depict the password! shaking my head right now, cant even use passwords in Ohio</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+</div>
+
+</head>
+<body>
+
+</body>
+</html>
